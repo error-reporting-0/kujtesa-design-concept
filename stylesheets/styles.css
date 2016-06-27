@@ -1,0 +1,393 @@
+/* line 2, ../sass/styles.scss */
+body {
+  background: #EEE none repeat scroll 0% 0%;
+  font-family: "Source Sans Pro",sans-serif;
+}
+
+/* line 6, ../sass/styles.scss */
+#top-view {
+  margin-top: -15px;
+}
+/* line 10, ../sass/styles.scss */
+#top-view nav {
+  background: #fff;
+  width: 100%;
+  height: 75px;
+  padding: 0px;
+  margin-top: 0px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2), 0px 2px 5px 0px rgba(0, 0, 0, 0.19);
+}
+/* line 17, ../sass/styles.scss */
+#top-view nav .nav-holder-top {
+  margin: 0px auto !important;
+  top: 0px;
+  padding: 0px;
+}
+/* line 24, ../sass/styles.scss */
+#top-view nav .nav-holder-top .navigation {
+  list-style-type: none;
+  padding-left: 0px;
+}
+/* line 28, ../sass/styles.scss */
+#top-view nav .nav-holder-top .navigation li:first-child {
+  padding-left: 0px;
+}
+/* line 31, ../sass/styles.scss */
+#top-view nav .nav-holder-top .navigation li {
+  float: left;
+  display: block;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  border-right: 1px solid #ccc;
+  height: 75px;
+  line-height: 85px;
+}
+/* line 40, ../sass/styles.scss */
+#top-view nav .nav-holder-top .navigation li a {
+  color: #333;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 200;
+}
+/* line 46, ../sass/styles.scss */
+#top-view nav .nav-holder-top .navigation li img {
+  vertical-align: middle;
+}
+
+/* line 55, ../sass/styles.scss */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+}
+
+/* line 62, ../sass/styles.scss */
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 67, ../sass/styles.scss */
+.slideritem {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+
+/* line 73, ../sass/styles.scss */
+.bxslider img {
+  border-style: none;
+}
+
+/* line 77, ../sass/styles.scss */
+.bx-wrapper img {
+  margin: 0 auto;
+}
+
+/* line 81, ../sass/styles.scss */
+.bx-wrapper {
+  margin-bottom: 40px;
+}
+
+/* line 86, ../sass/styles.scss */
+#midNav li {
+  float: left;
+  display: block;
+  background: #5D5D5D none repeat scroll 0%;
+  margin-left: 4px;
+  height: 65px;
+  margin: 4px 4px 4px 0px;
+}
+/* line 94, ../sass/styles.scss */
+#midNav li:first-child {
+  margin-left: 0px;
+}
+/* line 97, ../sass/styles.scss */
+#midNav li:nth-child(-n+2) {
+  width: 32%;
+}
+/* line 100, ../sass/styles.scss */
+#midNav li:nth-child(3) {
+  width: 17.1%;
+}
+/* line 103, ../sass/styles.scss */
+#midNav li:nth-child(4) {
+  width: 17.1%;
+}
+/* line 107, ../sass/styles.scss */
+#midNav span {
+  padding: 2px 4px;
+  margin: 5px 10px;
+  display: block;
+  font-family: Source Sans Pro;
+  color: #fff;
+}
+
+/* line 118, ../sass/styles.scss */
+.large {
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* line 123, ../sass/styles.scss */
+.small {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* line 127, ../sass/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 130, ../sass/styles.scss */
+.row {
+  width: 100%;
+  margin: 4px 4px 2px 0px;
+  overflow: hidden;
+}
+
+/* line 135, ../sass/styles.scss */
+.sixtysix {
+  width: 66%;
+  float: left;
+  height: 300px;
+  overflow: hidden;
+}
+
+/* line 141, ../sass/styles.scss */
+.thirtythree-first1 {
+  width: 33%;
+  margin-left: 5px;
+  float: left;
+  background: #fff;
+}
+
+/* line 147, ../sass/styles.scss */
+.thirtythree {
+  width: 32.8%;
+  height: 300px;
+  float: left;
+  background: #fff;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+/* line 156, ../sass/styles.scss */
+.lgtitle {
+  color: #5D5D5D;
+  font-weight: 200;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 10px 0px 10px 10px;
+  line-height: 43px;
+  font-family: Source Sans Pro;
+  display: block;
+}
+
+/* line 167, ../sass/styles.scss */
+.smtitle {
+  color: #5D5D5D;
+  font-weight: 200;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  line-height: 20px;
+  font-family: Source Sans Pro;
+  display: block;
+}
+
+/* line 178, ../sass/styles.scss */
+.hiddenbox {
+  display: none;
+}
+
+/* line 182, ../sass/styles.scss */
+#footer {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  margin: 0px auto;
+  color: #fff;
+  line-height: 20px;
+  font-size: 12px;
+  font-family: Source Sans Pro;
+  background: #2D2D2D;
+  overflow: hidden;
+  box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.2), 1px 0 px 0px 0px rgba(0, 0, 0, 0.19);
+}
+
+/* line 197, ../sass/styles.scss */
+.twentyfive:first-child {
+  width: 33%;
+}
+
+/* line 200, ../sass/styles.scss */
+.twentyfive {
+  width: 22.3%;
+  float: left;
+}
+
+/* line 204, ../sass/styles.scss */
+.copyrights {
+  border-top: 1px solid #ccc;
+}
+/* line 206, ../sass/styles.scss */
+.copyrights p {
+  margin-top: 5px;
+  text-align: center;
+  color: #ccc;
+}
+
+/* line 214, ../sass/styles.scss */
+.halfheight:first-child a {
+  color: #5D5D5D;
+  font-weight: 200;
+  font-size: 42px;
+  text-transform: uppercase;
+  line-height: 43px;
+  font-family: Source Sans Pro;
+}
+
+/* line 223, ../sass/styles.scss */
+.halfheight {
+  height: 150px;
+}
+/* line 225, ../sass/styles.scss */
+.halfheight h1 {
+  color: #5D5D5D;
+  font-weight: 300;
+  font-size: 42px;
+  text-transform: uppercase;
+  line-height: 43px;
+  font-family: Source Sans Pro;
+}
+/* line 234, ../sass/styles.scss */
+.halfheight h2 {
+  color: #5D5D5D;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 10px 0px 0px 10px;
+  line-height: 24px;
+  font-family: "Source Sans Pro";
+}
+/* line 244, ../sass/styles.scss */
+.halfheight ul {
+  margin-left: 10px;
+}
+/* line 248, ../sass/styles.scss */
+.halfheight .infokontakte {
+  margin-top: 15px;
+}
+/* line 251, ../sass/styles.scss */
+.halfheight .infokontakte li {
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  line-height: 16px;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+/* line 264, ../sass/styles.scss */
+.threeitems li {
+  border-top: 1px dotted #ccc;
+  padding: 10px 0 10px 0px;
+}
+/* line 268, ../sass/styles.scss */
+.threeitems li a {
+  padding: 0px;
+  margin: 5px 0px 5px 0px;
+  font-size: 20px;
+  font-family: Source Sans Pro;
+  line-height: 20px;
+  color: #E30000;
+  padding-top: 5px;
+}
+/* line 277, ../sass/styles.scss */
+.threeitems li p {
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 12px;
+}
+
+/* line 286, ../sass/styles.scss */
+.buletin {
+  margin-top: 15px;
+}
+/* line 288, ../sass/styles.scss */
+.buletin li {
+  margin-top: 5px;
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-family: Source Sans Pro;
+  line-height: 20px;
+  font-weight: 200;
+  color: #5D5D5D;
+  padding-top: 5px;
+}
+/* line 297, ../sass/styles.scss */
+.buletin li a {
+  color: #5D5D5D;
+}
+/* line 299, ../sass/styles.scss */
+.buletin li a :hover {
+  color: red;
+}
+/* line 306, ../sass/styles.scss */
+.buletin li:hover {
+  background-color: #ccc;
+  color: red;
+  cursor: pointer;
+}
+
+/* line 313, ../sass/styles.scss */
+.f-nav {
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 318, ../sass/styles.scss */
+.search {
+  vertical-align: center;
+  float: right;
+  height: 75px;
+  margin-top: 30px;
+}
+/* line 324, ../sass/styles.scss */
+.search input[type=text] {
+  background: #ccc none repeat scroll 0%;
+  border-style: none;
+  color: #666;
+  height: 25px;
+  padding-left: 5px;
+}
+
+/* line 333, ../sass/styles.scss */
+.twentyfive h2 {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Source Sans Pro";
+}
+/* line 340, ../sass/styles.scss */
+.twentyfive h2:hover, .twentyfive p:hover {
+  color: red;
+}
+/* line 343, ../sass/styles.scss */
+.twentyfive p {
+  margin-top: 5px;
+  font-family: "Source Sans Pro";
+}
+
+/* line 348, ../sass/styles.scss */
+.overlay {
+  background: transparent url("../images/05.png") 0% 0%;
+  height: 100%;
+}
